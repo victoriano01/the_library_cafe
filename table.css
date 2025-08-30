@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+}
+.table{
+    border-collapse: collapse;
+    min-width: 500px;
+    width: auto;
+    margin: 1rem;
+    background-color: #D8D9CC;
+    
+    
+
+
+}
+.table tr{
+    border: solid 2px rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    
+
+    
+}
+.table tr td{
+    border: solid 2px rgb(255, 255, 255);
+    width: 100vw;
+    padding-left: 5rem;
+    height: 3rem;
+
+}
+h1{
+    font-size: 40px;
+    margin: 1.5rem;
+    color: #D8D9CC;
+}
+#btn{
+    background-color: rgb(12, 171, 30);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 1rem;
+    width: 16rem;
+    display: inline-block;
+    text-align: center;
+
+}
+#btn:hover{
+    background-color: rgb(7, 236, 34);
+    color: rgb(43, 43, 43);
+    font-weight: 600;
+}
+.row{
+    background-color: #344765;
+    height: 100vh;
+}
+
+
+.ad_emprunt{
+    background-color: #D8D9CC;
+    width: 100%;
+    height: 100vh;
+}
+.ad_emprunt h1{
+    text-align: center;
+    color: #a76807;
+}
+.ad_emprunt p{
+    font-size: 24px;
+    margin: 1rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.ad_emprunt .tb_emp{
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+th{
+    font-size: 20px;
+}
+.ad_emprunt .tb_emp th,td{
+    border-bottom: solid 3px #a76807;
+    padding: 1.5rem;
+    
+}
+.ad_emprunt .tb_emp td{
+    padding: 1.5rem;
+    border-bottom: solid 3px #a76807;
+    border-left: none;
+
+}
+
+
+.btn_redue{
+    background-color: rgb(248, 49, 49);
+    color: aliceblue;
+    width: 6rem;
+}
+.retour-vert {
+    background-color: #17e217;
+
+}
+
+.retour-rouge {
+    background-color: #e21818; 
+
+}

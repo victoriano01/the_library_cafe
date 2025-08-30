@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.profil_page {
+    background-color: #A691F2;
+    position: relative;
+    height: 100vh;
+    z-index: 0; 
+    overflow: hidden; 
+}
+.profil_page h1{
+    font-size: 4rem;
+    margin: 10px;
+}
+
+.profils{
+    display: flex;
+    justify-content: space-around;
+    background-color:  #dcdbdbd8;
+    width: 60rem;
+    margin-left: 14rem;
+    border-radius: 15px;
+
+
+}
+
+.altern{
+    padding:3rem 0 0 5rem;
+} 
+.altern input{
+    margin: 1rem;
+    padding: 10px;
+    width: 15rem;
+    border: none;
+    background-color:  #d3d0df;
+    border-bottom:solid 2px rgb(40, 40, 40);
+
+
+} 
+.prof_pht .icn img{
+    width: 35px;
+    margin: 16px;
+    cursor: pointer;
+}
+.prof_pht .icn {
+
+    cursor: pointer;  
+    margin-left: 6rem;  
+}
+.btn_alt {
+    margin:2rem 4rem;
+    cursor: pointer;
+    
+}
+.btn_alt .alte{
+    width: 20rem;
+    font-size: 19px;
+    background-color: #cf2160;
+    color: aliceblue;
+    box-shadow: none;
+    border-radius: 1px;
+    
+}
+
+.blom {
+    position: absolute;
+    top: 0;
+    left: 55rem;
+    z-index: 0; 
+    width: 600px;
+    pointer-events: none; 
+}
+
+.bloma {
+    position: absolute;
+    top: 20rem;
+    left: 3rem;
+    z-index: 0;
+    width: 400px;
+    transform: rotate(90deg);
+    pointer-events: none;
+    
+
+}
+
+.profils, .altern, .btn_alt {
+    position: relative;
+    z-index: 2; 
+}
+.box_photo{
+    margin-top: 3rem;
+    margin-right: 3rem;
+}
+button{
+    cursor: pointer;
+}
+
+    .profils_alt {
+        background-color: #e6e6f0;
+        padding: 30px;
+        border-radius: 15px;
+        max-width: 500px;
+        width: 90%;
+    }
+.profil_page_alt{
+    background-color: #A691F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.alterns{
+    width: 30rem;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 7px;
+}
+.alterns input{
+    margin: 1rem;
+    padding: 10px;
+    width: 15rem;
+    border: none;
+    background-color:  #d3d0df;
+    border-bottom:solid 2px rgb(40, 40, 40);
+    outline: none;
+}
+.btn_alts{
+
+   margin-top: 2rem;
+}
+.btn_alts button{
+    background-color: #cf2160;
+    box-shadow: none;
+    border-radius: 1px;
+    color: #d3d0df;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.no-focus {
+    pointer-events: none;       
+    border: none;               
+    outline: none;              
+    background-color: transparent; 
+    color: #cf2160;
+}

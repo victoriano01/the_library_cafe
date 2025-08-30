@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.page_login{
+    background-image: url(img/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page_login .incript, .login{
+    position: relative;
+    background-color: #ffffff3e;
+    padding: 5rem;
+    border: none;
+    border-radius: 15px;
+    border:solid 2px #ffffff3e;
+    
+}
+.page_login .input{
+    background-color: rgb(230, 230, 230);
+    margin: 1rem;
+    padding: 0.9rem;
+    width: 17rem;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    outline: none;
+
+    
+}
+.page_login .btn a{
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+    padding: 10px;
+   
+
+}
+
+.page_login .btn a:hover{
+    color: aliceblue;
+
+}
+
+.page_login .input:hover{
+    box-shadow: 0px 0px 7px 2px rgba(255, 255, 255, 0.326);
+    background-color: rgb(255, 255, 255);
+}
+
+.page_login .btn:hover{
+    box-shadow: 0px 0px 7px 2px  rgba(0, 119, 255, 0.249);
+    color: aliceblue;
+}
+.page_login .btn{
+    background-color: rgb(0, 119, 255);
+    border: none;
+    border-radius: 20px;
+    padding: 0.9rem;
+    width: 9rem;
+    margin-left: 8px;
+    color: rgb(228, 228, 228);
+    font-size: 16px;
+    cursor: pointer;
+}
+.icn_user{
+    background-color: #ffffff61;
+    position: absolute;
+    top: 7.5rem;
+    border:solid 2px #ffffff3e;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.icn_user img{
+    width: 120px;
+    height: 120px;
+    color: aliceblue;
+    filter: invert();
+    
+}
+
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
